@@ -9,7 +9,7 @@ body {
 .navbar {
   overflow: hidden;
   background-color: #333;
-  font-family: Arial;
+  font-family: Montserrat;
 }
 
 /* Links inside the navbar */
@@ -76,7 +76,22 @@ body {
 }
 
 
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Montserrat;
+}
 
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
 /* The experiences dropdown container */
 .experiences {
@@ -143,12 +158,13 @@ a:hover {
 
 h1 {
     font-size: 3em;
-    font-family:'Montserrat';
+    font-family:'Lato';
 }
 p {
     font-size: 1em;
     line-height: 1.4em;
     color: #333;
+    font-family:'Lato';
 }
 footer {
     border-top: 1px solid #d5d5d5;
