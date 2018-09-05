@@ -49,7 +49,7 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #333;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -67,7 +67,7 @@ body {
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #333;
 }
 
 /* Show the dropdown menu on hover */
@@ -75,23 +75,6 @@ body {
   display: block;
 }
 
-
-/* Navbar container */
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-  font-family: Montserrat;
-}
-
-/* Links inside the navbar */
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
 
 /* The experiences dropdown container */
 .experiences {
@@ -120,7 +103,7 @@ body {
 .experience-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #333;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -138,7 +121,7 @@ body {
 
 /* Add a grey background color to dropdown links on hover */
 .experience-content a:hover {
-  background-color: #ddd;
+  background-color: #333;
 }
 
 /* Show the dropdown menu on hover */
