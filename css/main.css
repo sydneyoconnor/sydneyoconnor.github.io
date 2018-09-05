@@ -67,7 +67,7 @@ body {
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #333;
+  background-color: #ddd;
 }
 
 /* Show the dropdown menu on hover */
@@ -121,7 +121,7 @@ body {
 
 /* Add a grey background color to dropdown links on hover */
 .experience-content a:hover {
-  background-color: #333;
+  background-color: #ddd;
 }
 
 /* Show the dropdown menu on hover */
@@ -141,7 +141,7 @@ a:hover {
 
 h1 {
     font-size: 3em;
-    font-family:'Lato';
+    font-family:'Impact';
 }
 p {
     font-size: 1em;
