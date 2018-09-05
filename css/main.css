@@ -76,14 +76,8 @@ body {
 }
 
 
-/* The experiences dropdown container */
-.experiences {
-  float: left;
-  overflow: hidden;
-}
-
 /* Experiences Dropdown button */
-.experiences .experiencebtn {
+.dropdown .experiencebtn {
   font-size: 16px; 
   border: none;
   outline: none;
@@ -95,7 +89,7 @@ body {
 }
 
 /* Add a red background color to navbar links on hover */
-.navbar a:hover, .experiences:hover .experiencebtn {
+.navbar a:hover, .dropdown:hover .experiencebtn {
   background-color: red;
 }
 
@@ -125,7 +119,7 @@ body {
 }
 
 /* Show the dropdown menu on hover */
-.experience:hover .experience-content {
+.dropdown:hover .experience-content {
   display: block;
 }
 
